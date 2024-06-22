@@ -2,10 +2,11 @@ import React from "react";
 import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <Weather />
         Weather App
         <footer>
           This project is created by Karen Gammarota and is{" "}
@@ -20,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
